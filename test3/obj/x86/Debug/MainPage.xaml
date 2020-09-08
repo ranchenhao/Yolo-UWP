@@ -1,0 +1,19 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="test3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:test3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:ConnectionId='2' x:Name="layoutRoot">
+        <Image x:ConnectionId='3' x:Name="Image" Stretch="None"                       HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='4' HorizontalAlignment="Left" Margin="630,699,0,0"                                           TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Canvas x:ConnectionId='5' x:Name="canvas">
+        </Canvas>
+
+    </Grid>
+</Page>
+

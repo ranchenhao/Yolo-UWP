@@ -121,9 +121,7 @@
     </Compile>
     <Compile Include="YoloOutputParser.cs" />
     <Compile Include="ObjectDetection.cs" />
-    <Compile Include="PlanktonModel.cs" />
     <Compile Include="tinyyolov2-8.cs" />
-    <Compile Include="YoloV3Tiny.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -161,16 +159,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\tiny-yolov3-11.onnx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\yolov4.onnx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\YoloV3.onnx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\tinyyolov2-8.onnx" />
+    <Content Include="Assets\tinyyolov2-8.onnx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
